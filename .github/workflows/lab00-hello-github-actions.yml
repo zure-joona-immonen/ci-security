@@ -9,3 +9,5 @@ jobs:
     steps:
       - name: Run hello world
         run: echo "🎉 Step of the job is running on ${{ runner.os }}!"
+      - name: Run hello something else
+        run: echo "🎉🎉🎉!"
